@@ -1,5 +1,6 @@
-# HackArmour Landing Page
-The hackarmour landing page written in nextjs and typescript.
+# Instagram Landing Page
+
+The Instagram landing page written in nextjs, chakra ui and typescript.
 
 ## Stack
 
@@ -7,14 +8,25 @@ The hackarmour landing page written in nextjs and typescript.
 2. TypeScript
 3. Chakra UI
 4. framer-motion
-5. emotion
 
-## Contributing
-Contributions of all types are welcome, please follow the following guidelines if you want to involve- https://github.com/hackarmour#contribution-guidelines
+## Requirement
 
-Lint your codebase with `npm run lint` before pushing. 
+Node 14.x.x
 
-## Developers
+## Running locally in development mode
 
-- Development and layout: [@ujjwal-kr](https://github.com/ujjwal-kr)
-- Wireframe and assets: [@0xGamer](https://github.com/0xgamer)
+To get started, just clone the repository and run `npm install && npm run dev`:
+
+    git clone https://github.com/sunshine1004-dev/Instagram
+    npm install
+    npm run dev
+
+## Building and deploying in production
+
+If you wanted to run this site in production, you should install modules then build the site with `npm run build` and run it with `npm start`:
+
+    npm install
+    npm run build
+    npm start
+
+You should run `npm run build` again any time you make changes to the site.
