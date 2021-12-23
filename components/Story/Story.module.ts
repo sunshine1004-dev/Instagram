@@ -14,7 +14,7 @@ export const StoryTitle = styled.div`
   flex-direction: row;
   align-items: center;
   width: 100%;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   border: 1px solid #dbdbdb;
 `;
 
@@ -37,7 +37,7 @@ export const StoryStats = styled.div`
   gap: 1rem;
   padding: 1rem 2rem;
 `;
-export const StoryPopularityStats= styled.div`
+export const StoryPopularityStats = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
